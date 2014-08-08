@@ -7,11 +7,13 @@ package by.nasgor.inheritance;
  * Time: 3:07 PM
  */
 public class B extends Main {
+
+    public static String getClassName(String s){
+        return s;
+    }
+
     public B() {
         System.out.println("B constructor");
     }
 
-    protected void printVariable(){
-        System.out.println("variable is initialized in B Class");
-    }
 }
