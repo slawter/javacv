@@ -1,5 +1,7 @@
 package by.nasgor.trash;
 
+import java.util.ArrayList;
+
 /**
  * Created with IntelliJ IDEA.
  * User: nasgor
@@ -7,7 +9,8 @@ package by.nasgor.trash;
  * Time: 10:46 AM
  */
 public class Test {
-    public static void main(String[] args){
+    public static void main(String... args){
 
+        System.out.println();
     }
 }
